@@ -20,18 +20,23 @@ ALLOWED_SNYK_TOOLS = {"snyk_trust", "snyk_code_scan", "snyk_sca_scan"}
 # so we cut very long tool outputs down to this many characters.
 MAX_TOOL_OUTPUT = 8000
 
+SNYK_MCP_ARGS = ["-y", "snyk@latest", "mcp", "-t", "stdio"]
+
+# snyk_trust opens a web page and waits for a person to click "Trust".
+# A CI runner (like GitHub Actions) has no browser and no person, so it always fails there.
+# GitHub Actions sets CI=true, so in CI we turn the trust step off. On your own machine
+# or Codespace, CI is not set and the normal trust step still runs.
+if os.getenv("CI") == "true":
+    SNYK_MCP_ARGS.append("--disable-trust")
+
 SNYK_MCP_SERVER = {
     "snyk": {
         "command": "npx",
-        "args": ["-y", "snyk@latest", "mcp", "-t", "stdio"],
+        "args": SNYK_MCP_ARGS,
         "transport": "stdio",
         "env": dict(os.environ),  # passes SNYK_TOKEN (and PATH) to the Snyk CLI
     }
 }
-# snyk_trust opens a web page and waits for a person to click "Trust".
-# A CI runner (like GitHub Actions) has no browser and no person, so it always fails there.
-if os.getenv("CI") == "true":
-    SNYK_MCP_ARGS.append("--disable-trust")
 SYSTEM_PROMPT = """You are the Snyk agent in a DevSecOps team.
 Your only job is to run Snyk scans on one project and report what Snyk finds.
 
