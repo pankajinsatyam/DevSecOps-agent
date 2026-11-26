@@ -1,0 +1,236 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:cd4eb9ff-52e9-583e-bbb7-b4919dc003b5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-26T00:00:00Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "pkg:maven/com.example/orders-service@1.0.0",
+      "group": "com.example",
+      "name": "orders-service",
+      "version": "1.0.0",
+      "purl": "pkg:maven/com.example/orders-service@1.0.0",
+      "description": "Made-up Java service. Deliberately vulnerable sample SBOM for testing the Trivy agent."
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.14.1",
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "devsecops-agent:sample-note",
+          "value": "Log4Shell (CVE-2021-44228)"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.14.1",
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "devsecops-agent:sample-note",
+          "value": "goes with log4j-core"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.17",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "5.3.17",
+      "purl": "pkg:maven/org.springframework/spring-beans@5.3.17",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "devsecops-agent:sample-note",
+          "value": "Spring4Shell (CVE-2022-22965)"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.17",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "5.3.17",
+      "purl": "pkg:maven/org.springframework/spring-core@5.3.17",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "devsecops-agent:sample-note",
+          "value": "goes with spring-beans"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.1",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.9.10.1",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "devsecops-agent:sample-note",
+          "value": "many deserialization CVEs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-text@1.9",
+      "group": "org.apache.commons",
+      "name": "commons-text",
+      "version": "1.9",
+      "purl": "pkg:maven/org.apache.commons/commons-text@1.9",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "devsecops-agent:sample-note",
+          "value": "Text4Shell (CVE-2022-42889)"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.26",
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.26",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.26",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "devsecops-agent:sample-note",
+          "value": "unsafe YAML loading CVEs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@33.3.1-jre",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "33.3.1-jre",
+      "purl": "pkg:maven/com.google.guava/guava@33.3.1-jre",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "devsecops-agent:sample-note",
+          "value": "recent version, for contrast"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.example/orders-service@1.0.0",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1",
+        "pkg:maven/org.springframework/spring-beans@5.3.17",
+        "pkg:maven/org.springframework/spring-core@5.3.17",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.1",
+        "pkg:maven/org.apache.commons/commons-text@1.9",
+        "pkg:maven/org.yaml/snakeyaml@1.26",
+        "pkg:maven/com.google.guava/guava@33.3.1-jre"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-beans@5.3.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@5.3.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-text@1.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.yaml/snakeyaml@1.26",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@33.3.1-jre",
+      "dependsOn": []
+    }
+  ]
+}

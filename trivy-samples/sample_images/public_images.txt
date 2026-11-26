@@ -1,0 +1,9 @@
+# Public images Trivy can scan straight from Docker Hub, with no build needed.
+# The Trivy agent can scan any of these by name, for example: nginx:1.19
+#
+# image                      why it is here
+python:3.8-slim-buster       # end-of-life Debian, many OS CVEs
+node:14-alpine3.15           # end-of-life Node and Alpine
+nginx:1.19                   # old nginx with known CVEs
+alpine:3.10                  # very old Alpine, small but still has CVEs
+python:3.12-slim-bookworm    # current image, for comparison (few findings)

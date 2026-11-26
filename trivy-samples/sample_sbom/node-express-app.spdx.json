@@ -1,0 +1,1509 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "node-express-old",
+  "documentNamespace": "https://github.com/pankajinsatyam/DevSecOps-agent/sample_sbom/node-express-app-ed021d34-fa1a-50b2-9e48-8782f58bbe63",
+  "creationInfo": {
+    "created": "2026-11-26T00:00:00Z",
+    "creators": [
+      "Organization: DevSecOps-agent samples",
+      "Tool: package-lock-to-spdx"
+    ],
+    "comment": "Deliberately vulnerable sample SBOM for testing the Trivy agent. Built from sample_images/node-express-old/package-lock.json. Direct deps: express, jsonwebtoken, lodash, minimist."
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-node-express-old",
+      "name": "node-express-old",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-accepts-1.3.8",
+      "name": "accepts",
+      "versionInfo": "1.3.8",
+      "downloadLocation": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/accepts@1.3.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-array-flatten-1.1.1",
+      "name": "array-flatten",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/array-flatten@1.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-body-parser-1.18.2",
+      "name": "body-parser",
+      "versionInfo": "1.18.2",
+      "downloadLocation": "https://registry.npmjs.org/body-parser/-/body-parser-1.18.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/body-parser@1.18.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-buffer-equal-constant-time-1.0.1",
+      "name": "buffer-equal-constant-time",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/buffer-equal-constant-time@1.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-bytes-3.0.0",
+      "name": "bytes",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/bytes@3.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-content-disposition-0.5.2",
+      "name": "content-disposition",
+      "versionInfo": "0.5.2",
+      "downloadLocation": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/content-disposition@0.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-content-type-1.0.5",
+      "name": "content-type",
+      "versionInfo": "1.0.5",
+      "downloadLocation": "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/content-type@1.0.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-cookie-0.3.1",
+      "name": "cookie",
+      "versionInfo": "0.3.1",
+      "downloadLocation": "https://registry.npmjs.org/cookie/-/cookie-0.3.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/cookie@0.3.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-cookie-signature-1.0.6",
+      "name": "cookie-signature",
+      "versionInfo": "1.0.6",
+      "downloadLocation": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/cookie-signature@1.0.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-debug-2.6.9",
+      "name": "debug",
+      "versionInfo": "2.6.9",
+      "downloadLocation": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/debug@2.6.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-depd-1.1.2",
+      "name": "depd",
+      "versionInfo": "1.1.2",
+      "downloadLocation": "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/depd@1.1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-destroy-1.0.4",
+      "name": "destroy",
+      "versionInfo": "1.0.4",
+      "downloadLocation": "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/destroy@1.0.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-ecdsa-sig-formatter-1.0.11",
+      "name": "ecdsa-sig-formatter",
+      "versionInfo": "1.0.11",
+      "downloadLocation": "https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ecdsa-sig-formatter@1.0.11"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-ee-first-1.1.1",
+      "name": "ee-first",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ee-first@1.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-encodeurl-1.0.4",
+      "name": "encodeurl",
+      "versionInfo": "1.0.4",
+      "downloadLocation": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.4.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/encodeurl@1.0.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-escape-html-1.0.3",
+      "name": "escape-html",
+      "versionInfo": "1.0.3",
+      "downloadLocation": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/escape-html@1.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-etag-1.8.1",
+      "name": "etag",
+      "versionInfo": "1.8.1",
+      "downloadLocation": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/etag@1.8.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-express-4.16.0",
+      "name": "express",
+      "versionInfo": "4.16.0",
+      "downloadLocation": "https://registry.npmjs.org/express/-/express-4.16.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/express@4.16.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-finalhandler-1.1.0",
+      "name": "finalhandler",
+      "versionInfo": "1.1.0",
+      "downloadLocation": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/finalhandler@1.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-forwarded-0.2.0",
+      "name": "forwarded",
+      "versionInfo": "0.2.0",
+      "downloadLocation": "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/forwarded@0.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-fresh-0.5.2",
+      "name": "fresh",
+      "versionInfo": "0.5.2",
+      "downloadLocation": "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/fresh@0.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-http-errors-1.6.3",
+      "name": "http-errors",
+      "versionInfo": "1.6.3",
+      "downloadLocation": "https://registry.npmjs.org/http-errors/-/http-errors-1.6.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/http-errors@1.6.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-statuses-1.5.0",
+      "name": "statuses",
+      "versionInfo": "1.5.0",
+      "downloadLocation": "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/statuses@1.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-iconv-lite-0.4.19",
+      "name": "iconv-lite",
+      "versionInfo": "0.4.19",
+      "downloadLocation": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.19.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/iconv-lite@0.4.19"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-inherits-2.0.3",
+      "name": "inherits",
+      "versionInfo": "2.0.3",
+      "downloadLocation": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/inherits@2.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-ipaddr.js-1.9.1",
+      "name": "ipaddr.js",
+      "versionInfo": "1.9.1",
+      "downloadLocation": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ipaddr.js@1.9.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-jsonwebtoken-8.5.1",
+      "name": "jsonwebtoken",
+      "versionInfo": "8.5.1",
+      "downloadLocation": "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-8.5.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/jsonwebtoken@8.5.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-ms-2.1.3",
+      "name": "ms",
+      "versionInfo": "2.1.3",
+      "downloadLocation": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ms@2.1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-jwa-1.4.2",
+      "name": "jwa",
+      "versionInfo": "1.4.2",
+      "downloadLocation": "https://registry.npmjs.org/jwa/-/jwa-1.4.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/jwa@1.4.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-jws-3.2.3",
+      "name": "jws",
+      "versionInfo": "3.2.3",
+      "downloadLocation": "https://registry.npmjs.org/jws/-/jws-3.2.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/jws@3.2.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-lodash-4.17.15",
+      "name": "lodash",
+      "versionInfo": "4.17.15",
+      "downloadLocation": "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash@4.17.15"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-lodash.includes-4.3.0",
+      "name": "lodash.includes",
+      "versionInfo": "4.3.0",
+      "downloadLocation": "https://registry.npmjs.org/lodash.includes/-/lodash.includes-4.3.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash.includes@4.3.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-lodash.isboolean-3.0.3",
+      "name": "lodash.isboolean",
+      "versionInfo": "3.0.3",
+      "downloadLocation": "https://registry.npmjs.org/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash.isboolean@3.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-lodash.isinteger-4.0.4",
+      "name": "lodash.isinteger",
+      "versionInfo": "4.0.4",
+      "downloadLocation": "https://registry.npmjs.org/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash.isinteger@4.0.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-lodash.isnumber-3.0.3",
+      "name": "lodash.isnumber",
+      "versionInfo": "3.0.3",
+      "downloadLocation": "https://registry.npmjs.org/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash.isnumber@3.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-lodash.isplainobject-4.0.6",
+      "name": "lodash.isplainobject",
+      "versionInfo": "4.0.6",
+      "downloadLocation": "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash.isplainobject@4.0.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-lodash.isstring-4.0.1",
+      "name": "lodash.isstring",
+      "versionInfo": "4.0.1",
+      "downloadLocation": "https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash.isstring@4.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-lodash.once-4.1.1",
+      "name": "lodash.once",
+      "versionInfo": "4.1.1",
+      "downloadLocation": "https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/lodash.once@4.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-media-typer-0.3.0",
+      "name": "media-typer",
+      "versionInfo": "0.3.0",
+      "downloadLocation": "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/media-typer@0.3.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-merge-descriptors-1.0.1",
+      "name": "merge-descriptors",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/merge-descriptors@1.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-methods-1.1.2",
+      "name": "methods",
+      "versionInfo": "1.1.2",
+      "downloadLocation": "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/methods@1.1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-mime-1.4.1",
+      "name": "mime",
+      "versionInfo": "1.4.1",
+      "downloadLocation": "https://registry.npmjs.org/mime/-/mime-1.4.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mime@1.4.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-mime-db-1.52.0",
+      "name": "mime-db",
+      "versionInfo": "1.52.0",
+      "downloadLocation": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mime-db@1.52.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-mime-types-2.1.35",
+      "name": "mime-types",
+      "versionInfo": "2.1.35",
+      "downloadLocation": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mime-types@2.1.35"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-minimist-1.2.0",
+      "name": "minimist",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/minimist@1.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-ms-2.0.0",
+      "name": "ms",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ms@2.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-negotiator-0.6.3",
+      "name": "negotiator",
+      "versionInfo": "0.6.3",
+      "downloadLocation": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/negotiator@0.6.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-on-finished-2.3.0",
+      "name": "on-finished",
+      "versionInfo": "2.3.0",
+      "downloadLocation": "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/on-finished@2.3.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-parseurl-1.3.3",
+      "name": "parseurl",
+      "versionInfo": "1.3.3",
+      "downloadLocation": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/parseurl@1.3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-path-to-regexp-0.1.7",
+      "name": "path-to-regexp",
+      "versionInfo": "0.1.7",
+      "downloadLocation": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/path-to-regexp@0.1.7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-proxy-addr-2.0.8",
+      "name": "proxy-addr",
+      "versionInfo": "2.0.8",
+      "downloadLocation": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.8.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/proxy-addr@2.0.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-qs-6.5.1",
+      "name": "qs",
+      "versionInfo": "6.5.1",
+      "downloadLocation": "https://registry.npmjs.org/qs/-/qs-6.5.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/qs@6.5.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-range-parser-1.2.1",
+      "name": "range-parser",
+      "versionInfo": "1.2.1",
+      "downloadLocation": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/range-parser@1.2.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-raw-body-2.3.2",
+      "name": "raw-body",
+      "versionInfo": "2.3.2",
+      "downloadLocation": "https://registry.npmjs.org/raw-body/-/raw-body-2.3.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/raw-body@2.3.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-depd-1.1.1",
+      "name": "depd",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "https://registry.npmjs.org/depd/-/depd-1.1.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/depd@1.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-http-errors-1.6.2",
+      "name": "http-errors",
+      "versionInfo": "1.6.2",
+      "downloadLocation": "https://registry.npmjs.org/http-errors/-/http-errors-1.6.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/http-errors@1.6.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-setprototypeof-1.0.3",
+      "name": "setprototypeof",
+      "versionInfo": "1.0.3",
+      "downloadLocation": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/setprototypeof@1.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-safe-buffer-5.1.1",
+      "name": "safe-buffer",
+      "versionInfo": "5.1.1",
+      "downloadLocation": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/safe-buffer@5.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-semver-5.7.3",
+      "name": "semver",
+      "versionInfo": "5.7.3",
+      "downloadLocation": "https://registry.npmjs.org/semver/-/semver-5.7.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/semver@5.7.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-send-0.16.0",
+      "name": "send",
+      "versionInfo": "0.16.0",
+      "downloadLocation": "https://registry.npmjs.org/send/-/send-0.16.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/send@0.16.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-serve-static-1.13.0",
+      "name": "serve-static",
+      "versionInfo": "1.13.0",
+      "downloadLocation": "https://registry.npmjs.org/serve-static/-/serve-static-1.13.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/serve-static@1.13.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-setprototypeof-1.1.0",
+      "name": "setprototypeof",
+      "versionInfo": "1.1.0",
+      "downloadLocation": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/setprototypeof@1.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-statuses-1.3.1",
+      "name": "statuses",
+      "versionInfo": "1.3.1",
+      "downloadLocation": "https://registry.npmjs.org/statuses/-/statuses-1.3.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/statuses@1.3.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-type-is-1.6.18",
+      "name": "type-is",
+      "versionInfo": "1.6.18",
+      "downloadLocation": "https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/type-is@1.6.18"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-unpipe-1.0.0",
+      "name": "unpipe",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/unpipe@1.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-utils-merge-1.0.1",
+      "name": "utils-merge",
+      "versionInfo": "1.0.1",
+      "downloadLocation": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/utils-merge@1.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-vary-1.1.2",
+      "name": "vary",
+      "versionInfo": "1.1.2",
+      "downloadLocation": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/vary@1.1.2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-node-express-old"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-accepts-1.3.8"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-array-flatten-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-body-parser-1.18.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-buffer-equal-constant-time-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-bytes-3.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-content-disposition-0.5.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-content-type-1.0.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-cookie-0.3.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-cookie-signature-1.0.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-debug-2.6.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-depd-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-destroy-1.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-ecdsa-sig-formatter-1.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-ee-first-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-encodeurl-1.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-escape-html-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-etag-1.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-express-4.16.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-finalhandler-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-forwarded-0.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-fresh-0.5.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-http-errors-1.6.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-statuses-1.5.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-iconv-lite-0.4.19"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-inherits-2.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-ipaddr.js-1.9.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-jsonwebtoken-8.5.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-ms-2.1.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-jwa-1.4.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-jws-3.2.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-lodash-4.17.15"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-lodash.includes-4.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-lodash.isboolean-3.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-lodash.isinteger-4.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-lodash.isnumber-3.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-lodash.isplainobject-4.0.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-lodash.isstring-4.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-lodash.once-4.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-media-typer-0.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-merge-descriptors-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-methods-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-mime-1.4.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-mime-db-1.52.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-mime-types-2.1.35"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-minimist-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-ms-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-negotiator-0.6.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-on-finished-2.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-parseurl-1.3.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-path-to-regexp-0.1.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-proxy-addr-2.0.8"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-qs-6.5.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-range-parser-1.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-raw-body-2.3.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-depd-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-http-errors-1.6.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-setprototypeof-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-safe-buffer-5.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-semver-5.7.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-send-0.16.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-serve-static-1.13.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-setprototypeof-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-statuses-1.3.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-type-is-1.6.18"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-unpipe-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-utils-merge-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-node-express-old",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-npm-vary-1.1.2"
+    }
+  ]
+}

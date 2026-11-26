@@ -1,0 +1,6 @@
+# Current versions (checked November 2026). Compare the Trivy report with python-flask-old.
+flask==3.1.3
+werkzeug==3.1.9
+jinja2==3.1.6
+requests==2.34.2
+urllib3==2.8.0

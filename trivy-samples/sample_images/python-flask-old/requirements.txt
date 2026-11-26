@@ -1,0 +1,9 @@
+# Deliberately OLD packages with known CVEs. Do not use in real work.
+# The helper packages are pinned too, so the image still builds and runs.
+flask==1.1.2
+werkzeug==1.0.1
+itsdangerous==1.1.0
+markupsafe==1.1.1
+jinja2==2.11.2
+requests==2.25.1
+urllib3==1.26.4
