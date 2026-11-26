@@ -28,7 +28,10 @@ SNYK_MCP_SERVER = {
         "env": dict(os.environ),  # passes SNYK_TOKEN (and PATH) to the Snyk CLI
     }
 }
-
+# snyk_trust opens a web page and waits for a person to click "Trust".
+# A CI runner (like GitHub Actions) has no browser and no person, so it always fails there.
+if os.getenv("CI") == "true":
+    SNYK_MCP_ARGS.append("--disable-trust")
 SYSTEM_PROMPT = """You are the Snyk agent in a DevSecOps team.
 Your only job is to run Snyk scans on one project and report what Snyk finds.
 
